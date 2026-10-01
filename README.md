@@ -13,7 +13,7 @@
 
 <div align="center">
   
-  **[View the Complete Schematic (PDF)](./docs/MotionBoard_Sch.pdf)** 
+  **[View the Complete Schematic (PDF)](./schematic/MotionBoard_Sch.pdf)** 
 
 </div>
 
@@ -44,9 +44,9 @@ The hardware architecture is designed with a strict focus on isolating high-freq
 
 ## 📂 Repository Structure
 
-* **[`hardware/`](./hardware):** Altium Designer source files including Schematics (`.SchDoc`), PCB Layout (`.PcbDoc`), and BOM.
-* **[`firmware/`](./firmware):** Embedded C source code for the PIC microcontroller.
-* **[`docs/`](./docs):** Exported manufacturing files (Gerbers, NC Drill) and high-resolution PDF schematics.
+* **[`datasheets/`](./datasheets):** Contains Datasheets used in the Schematic.
+* **[`layout/`](./layout):** Altium Designer PCB Layout files (`.PcbDoc`)
+* **[`schematic/`](./schematic):** Altium Designer files including Schematics (`.SchDoc`) and high-resolution PDF schematics.
 
 ---
 *Created by Abdullah Ajmal - February 2026*
